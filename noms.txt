@@ -1,0 +1,39 @@
+kb|g.431.c.0.peg.1	 False Positive 	 kb|g.431.c.0_874+1476
+	kb|g.431.peg.479	78.1906%	(tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA)
+Count: 1
+
+kb|g.431.c.0.peg.2	 Successful Annotation 	 kb|g.431.c.0_2668+825
+	kb|g.431.peg.274	100%	()
+Count: 1
+
+kb|g.431.c.0.peg.3	 False Positive 	 kb|g.431.c.0_5014+1473
+	kb|g.431.peg.10	95.2663%	(ATP synthase alpha chain (EC 3.6.3.14))
+Count: 1
+
+kb|g.431.c.0.peg.6	 Successful Annotation 	 kb|g.431.c.0_3545+240
+	kb|g.431.peg.100	100%	(ATP synthase C chain (EC 3.6.3.14))
+Count: 1
+
+kb|g.431.c.0.peg.8	 Successful Annotation 	 kb|g.431.c.0_6524+876
+	kb|g.431.peg.283	100%	(ATP synthase gamma chain (EC 3.6.3.14))
+Count: 1
+
+kb|g.431.c.0.peg.9	 Successful Annotation 	 kb|g.431.c.0_7427+1398
+	kb|g.431.peg.136	100%	(ATP synthase beta chain (EC 3.6.3.14))
+Count: 1
+
+kb|g.431.c.0.peg.11	 Successful Annotation 	 kb|g.431.c.0_3909+471
+	kb|g.431.peg.384	100%	(ATP synthase B chain (EC 3.6.3.14))
+Count: 1
+
+kb|g.431.c.0.peg.12	 Successful Annotation 	 kb|g.431.c.0_4392+537
+	kb|g.431.peg.164	100%	(ATP synthase delta chain (EC 3.6.3.14))
+Count: 1
+
+kb|g.431.c.0.peg.14	 False Positive 	 kb|g.431.c.0_8754+510
+	kb|g.431.peg.299	100%	(ATP synthase epsilon chain (EC 3.6.3.14))
+Count: 1
+
+
+Total Number of Successfully Called Genes: 6
+Total Number of False Positives: 3

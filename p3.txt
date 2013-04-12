@@ -1,0 +1,50 @@
+
+
+        Software Design and Development
+                Fall 2012
+                Project 3
+
+turnin code:  sdd_p3
+
+First, alter project 1 to produce a file which can be used as input
+to project 2.  Then, we can use project 2 to produce 2 input files for
+project 3.
+
+Write a D program that accepts a file of known pegs and their protein
+sequences as the first command-line arg, and a file of unknown ones
+(hypos) for the second command-line arg.  It should read the contents
+and compute all 9-mers for each peg in the files.  For each hypo gene,
+compare the 9-mers to those in the first set to determine the best match
+for each hypo gene.
+An optional, third command-line arg (-v for verbose) tells whether to
+print optional lines described below.
+
+Output:
+    pegID_of_unknown
+        pegID_of_matching_known  percent_of_unknown_that_matches
+        pegID_of_matching_known  percent_of_unknown_that_matches
+        number_of_matches_with_knowns
+Note the "percent" lines only print if the -v flag is on.
+Write the output to stdout so that it can be redirected.
+// NOT: Sort the "percent" lines based on highest to lowest percent match.
+
+For grading purposes, I will supply a file consisting of a single
+hypo gene.
+
+Some rules of thumb:
+    - print info about knowns that match at least 70% of the 9-mers
+      in the unknown
+
+    
+Use turnin to submit a single D "script" which has the magic first line:
+    #!/usr/bin/rdmd
+
+Comments:
+We could run the hypo genes from a known genome against
+themselves, to see if a gene finds itself and no others.
+Then, we will run genes from a known genome against another known one
+to see if we match those with same function.
+Finally, we will run hypo genes from an UNknown set against a known
+set and see how well we do on annotation.  We will probably run them
+against several known genomes to see if we get clusters of genes related
+by function.

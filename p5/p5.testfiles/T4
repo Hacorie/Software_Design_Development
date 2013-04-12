@@ -1,0 +1,10 @@
+cat > tempin <<EOF
+GCTGGAACCAG
+ACTGGATCAG
+EOF
+
+./$1 tempin +5 -4 -8    # using our "typical" values
+rm -f tempin
+
+echo "RMB:  GCTGGAACCAG"
+echo "RMB:  ACTGG-ATCAG"

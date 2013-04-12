@@ -1,0 +1,10 @@
+cat > tempin <<EOF
+ACGT
+ACCT
+EOF
+
+./$1 tempin +5 +5 +5
+rm tempin
+
+echo "RMB:  A---CGT"
+echo "RMB:  ACCT---"

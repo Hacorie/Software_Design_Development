@@ -1,0 +1,25 @@
+
+
+        Software Design and Development
+                Fall 2012
+                Project 2
+
+turnin code:  sdd_p2
+
+Write a D program that computes the protein sequences from all protein
+encoding genes (pegs) listed in a file named as the first command-line
+argument.  The file will have the same format as our 8_* file and the
+pegs will be listed as locs in the third field, e.g.:
+    kb|g.3077.c.0_545954+213 
+    kb|g.3077.c.0_347271-684
+The contigs will be in a file named as the second command-line argument.
+
+Produce fasta format using the peg id (second field in first file) as the
+ID of the sequence:
+    >kb|g.3077.peg.1
+    MAAAAAA....
+
+Write the output to stdout so that it can be redirected.
+    
+Use turnin to submit a single D "script" which has the magic first line:
+    #!/usr/bin/rdmd

@@ -1,0 +1,18 @@
+* kb|g.2       Buchnera aphidicola str. APS   (Acyrthosiphon pisum)
+* kb|g.2323    Buchnera aphidicola str. Tuc7  (Acyrthosiphon pisum)
+  kb|g.2344    Buchnera aphidicola str. 5A    (Acyrthosiphon pisum)
+* kb|g.2577    Buchnera aphidicola str. LSR1  (Acyrthosiphon pisum)
+* kb|g.3077    Buchnera aphidicola str. JF98  (Acyrthosiphon pisum)
+  kb|g.3078    Buchnera aphidicola str. JF99  (Acyrthosiphon pisum)
+* kb|g.3079    Buchnera aphidicola str. TLW03 (Acyrthosiphon pisum)
+  kb|g.3080    Buchnera aphidicola str. LL01  (Acyrthosiphon pisum)
+* kb|g.219     Buchnera aphidicola str. Sg    (Schizaphis graminum)
+  kb|g.8776    Buchnera aphidicola str. Sg    (Schizaphis graminum)
+* kb|g.431     Buchnera aphidicola str. Bp    (Baizongia pistaciae)
+  kb|g.432     Buchnera aphidicola str. Bp    (Baizongia pistaciae)
+  kb|g.533     Buchnera aphidicola            (Cinara tujafilina)
+* kb|g.1113    Buchnera aphidicola str. Cc    (Cinara cedri)
+  kb|g.1114    Buchnera aphidicola str. Cc    (Cinara cedri)
+  kb|g.9567    Buchnera aphidicola str. Cc    (Cinara cedri)
+
+* --> indicates funcs and locs are supplied for these

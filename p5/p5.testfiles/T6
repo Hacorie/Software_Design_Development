@@ -1,0 +1,10 @@
+cat > tempin <<EOF
+AAAA
+AA
+EOF
+
+./$1 tempin +5 -4 -8
+rm -f tempin
+
+echo "RMB:  AAAA"
+echo "RMB:  --AA"

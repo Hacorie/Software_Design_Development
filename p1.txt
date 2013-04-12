@@ -1,0 +1,32 @@
+
+
+        Software Design and Development
+                Fall 2012
+                Project 1
+
+turnin code:  sdd_p1
+
+Write a D program that finds all hypothetical (putative) genes
+in fasta file provided as the first command-line argument.
+The file will contain one or more contigs in fasta format.
+If there is a  #  in column 1, ignore the line.
+
+Treat atg as the only start codon.
+The only stop codons to search for are:  taa, tag, tga
+Two or more genes may end at the same stop codon which implies that a long
+gene may contain a shorter gene which begins in the same reading frame.
+A gene may occur fully within another gene if the start and stops are in
+different reading frames.  Likewise, one gene may overlap another, but
+this implies they are in different reading frames, else they would have
+to share the stop codon.
+
+Only retrieve genes that are between 99 and 1500 characters inclusive.
+
+Also, be sure to retrieve genes on both the plus and minus strands.
+This implies that the minus strand must be complemented.
+
+Produce as output loc information like that in our samples, e.g.:
+    kb|g.3077.c.0_545954+213
+    
+Use turnin to submit a single D "script" which has the magic first line:
+    #!/usr/bin/rdmd

@@ -1,0 +1,42 @@
+
+                    Software Design and Development
+                            Project 5
+                            Fall 2012
+    
+
+turnin code:  sdd_p5
+
+Write a D program that reads a pair of strings from a filename
+specified on the cmd-line, i.e. NOT from stdin.  Each string will be
+on a single line by itself.  Be sure to strip off whitespace at each
+end of the strings, including newlines.  The program should align the
+pair of strings.  Use the Needleman-Wunsch algorithm as discussed in
+class (off the Software Design web page).  When there are choices
+in the traceback step, choose diagonal, then left, and finally up.
+Note there is a special case in which you may get to the leftmost
+column before top row in which you merely keep the remaining chars
+from the top string matched with '-'; similarly for getting to top
+row before left column.
+
+Run the program as follows:
+    pgmname  filename  match_value  mismatch_penalty  gap_penalty
+For example:
+    ./p5.d  file_of_string_pairs  +5  -4  -8
+
+As output, you should print the alignment and a blank line.  Do not
+clear the screen.  The output should be placed on stdout.  The input
+may contain comment lines at arbitrary points in the file; they should
+be skipped.
+The first line with a string should be the one "across" the top of
+the matrix.
+
+Sample input:
+    # this is a comment (a # in column 1 designates a comment)
+    ACGT
+    ACT
+
+Sample output for the above input:
+    ACGT
+    AC-T
+
+Use turnin to submit JUST your script, NOT a tar file.

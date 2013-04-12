@@ -1,0 +1,22 @@
+
+
+
+        Software Design and Development
+                Fall 2012
+                Project 4
+
+turnin code:  sdd_p4
+
+Turnin a tar file containing a directory containing a shell script
+named p4.sh which executes your entire pipeline of p1, p2, p3, and a
+new p4.d program.  You can alter the old programs in any way you choose.
+The script will take 2 command line args:
+    - a file containing the contigs for one known genome 
+    - a db file containing all known data
+p4.d should take the output from the prior programs and check validity
+of the annotations against the known data.
+The tar file should contain all programs and scripts, but no data or
+small data files for quick testing.
+The database of known data will be our 8_* file.
+Be sure to print information about false positives as well as 
+called annotations.

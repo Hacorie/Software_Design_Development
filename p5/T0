@@ -1,0 +1,17 @@
+
+# from the advanced page:
+
+cat > tempin <<EOF
+# example from the advanced web page
+GAATTCAGTTA
+# second string coming up
+GGATCGA
+# cool; we're done
+EOF
+
+./$1 tempin +2 -1 -2
+rm tempin
+
+echo "RMB:   GAATTCAGTTA"
+echo "RMB:   GGA_TC_G__A"
+## echo "RMB:   GGAT_C_G__A"

@@ -1,0 +1,11 @@
+Sprouts:
+
+Rules:
+move: connect a point to a point and add a new point to the line
+   Can connect point to itself
+From any point, you cannot have more than 3 arcs coming from it
+Cannot cross lines.
+
+Strategy: Isolate points if possible
+
+
